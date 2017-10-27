@@ -3,7 +3,7 @@ notifi_download_layout.xml
 
 colors
 
-企业默认logo
+企业默认logo （搜索关键字picasso)
 VerticalSpaceAdapter
 SaleCertificationActivity
 CompanyCardShareActivity
@@ -16,16 +16,20 @@ ShoppingCartAdapter
 
 
 CompanyIndustryActivity
-
-CompanySearchActivity
+筛选产业角色，请求数据onSuccess方法增加过滤非本产业判断
+if (servicesType.vocation.aliaz.equals("产业关键字"))
 
 Constant
+微信，qq的key值。
 
 CloundlibraryBottomPop
+空间名片分享和云视名片分享的微博都关闭
 
 MainActivity
+更改bmob后端云的key，搜索initialize即可。更改app更新提示id。
 
 YunluLawActivity
+更改各自产业的相关协议
 
 aboutus_layout.xml
 
@@ -38,5 +42,8 @@ setting_updata.xml
 strings
 
 AndroidManifest
+高德地图更改，添加商品三级分类activity。
 
 activity_association_open_zone.xml
+
+产业化新建产品时显示三级分类，搜索ProductNameActivity,将此类复制为原有产业化的类。
