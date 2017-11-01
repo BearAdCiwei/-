@@ -1,3 +1,7 @@
+Constant
+微信，qq的key值。
+新建常量存放默认logo地址，用于修改对应类的默认logo.
+
 app颜色，图片修改：
 notifi_download_layout.xml
 
@@ -10,7 +14,6 @@ CompanyCardShareActivity
 CompanyCardSoclActivity
 ZoneCompanyAdapter
 CompanySearchAdapter
-ShoppingCartAdapter
 
 
 
@@ -19,8 +22,6 @@ CompanyIndustryActivity
 筛选产业角色，请求数据onSuccess方法增加过滤非本产业判断
 if (servicesType.vocation.aliaz.equals("产业关键字"))
 
-Constant
-微信，qq的key值。
 
 CloundlibraryBottomPop
 空间名片分享和云视名片分享的微博都关闭
