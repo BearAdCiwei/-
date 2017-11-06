@@ -16,6 +16,8 @@ ZoneCompanyAdapter
 CompanySearchAdapter
 
 
+产业化APP创建空间的时候要显示产业角色栏目
+activity_association_open_zone.xml 里有原控件，取消gone即可
 
 
 CompanyIndustryActivity
