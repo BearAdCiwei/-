@@ -23,6 +23,7 @@ activity_association_open_zone.xml 里有原控件，取消gone即可
 
 
 CompanyIndustryActivity
+activity_company_industry.xml隐藏上方textview输入框
 筛选产业角色，请求数据onSuccess方法增加过滤非本产业判断
 if (servicesType.vocation.aliaz.equals("产业关键字"))
 
@@ -50,8 +51,6 @@ strings
 
 AndroidManifest
 高德地图更改，添加商品三级分类activity。
-
-activity_association_open_zone.xml
 
 产业化新建产品时显示三级分类，搜索ProductNameActivity,将此类复制为原有产业化的类。注意请求三级分类数据时使用各自产业化关键字 
 服装产业化特别注意，一般关键字是dresses,这里用clohing。
