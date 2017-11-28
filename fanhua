@@ -1,6 +1,7 @@
 Constant
 微信，qq的key值。
-新建常量存放默认logo地址，用于修改对应类的默认logo.
+bmob端更新的key和id.
+修改对应类的默认logo.
 产业化分享没有微博分享 CARD_SHARE_ITEMS 和 CARD_SHARE_ITEMS_TEXT删除微博部分
 同事CardShareWayPop删除 CARD_SHARE_ITEMS_TEXT1 和 CARD_SHARE_ITEMS1中的微博部分
 
@@ -8,15 +9,6 @@ app颜色，图片修改：
 notifi_download_layout.xml
 
 colors
-
-企业默认logo （搜索关键字picasso)
-VerticalSpaceAdapter
-SaleCertificationActivity
-CompanyCardShareActivity
-CompanyCardSoclActivity
-ZoneCompanyAdapter
-CompanySearchAdapter
-
 
 产业化APP创建空间的时候要显示产业角色栏目
 activity_association_open_zone.xml 里有原控件，取消gone即可
@@ -31,9 +23,6 @@ if (servicesType.vocation.aliaz.equals("产业关键字"))
 CloundlibraryBottomPop
 空间名片分享和云视名片分享的微博都关闭
 
-MainActivity
-更改bmob后端云的key，搜索initialize即可。更改app更新提示id。
-
 YunluLawActivity
 更改各自产业的相关协议
 
@@ -43,9 +32,9 @@ aboutus_layout.xml
 
 activity_start.xml
 
-StartActivity
+activity_association_profile.xml标题栏字体“资讯”过小，改成54px
 
-setting_updata.xml
+StartActivity
 
 strings
 
